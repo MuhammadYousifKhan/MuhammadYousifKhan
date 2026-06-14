@@ -7,7 +7,7 @@
 - 🏢 **Co-Founder & Team Lead @ Team Axioms** — a student-led dev team shipping full-stack web & AI automation for business clients.
 - 🧾 Designed and deployed **4 production systems** — two multi-branch ERPs, a real-estate platform, and a retail POS — handling **85+ live transactions a day** with automated WhatsApp billing and double-entry accounting.
 - ⚡ Automate with **n8n + LLM agents (LangChain)** — cut manual processing time **40%** and removed **15+ hours/week** of recurring work.
-- 🎓 BS Computer Science @ **Sukkur IBA University** (CGPA 3.50/4.00, 2027).
+- 🎓 BS Computer Science @ **Sukkur IBA University** (CGPA 3.37/4.00, 2027).
 - 🥇 **1st Place**, Speed Programming Competition (Sukkur IBA) · 🇮🇹 Global Semester Exchange — Sapienza University of Rome.
 - 💬 Ask me about **ERP/POS architecture, MERN, TypeScript, and workflow automation**.
 
