@@ -68,7 +68,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=MuhammadYousifKhan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=MuhammadYousifKhan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub Trophies"/>
 
 <br/><br/>
 
