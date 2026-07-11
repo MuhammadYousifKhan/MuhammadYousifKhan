@@ -1,154 +1,164 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Muhammad%20Yousif%20Khan&fontSize=50&animation=fadeIn" alt="Header Banner" />
-</div>
+<svg width="100%" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#38bdf8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#34d399;#818cf8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="typeCmd">
+      <rect x="40" y="80" width="0" height="30">
+        <animate attributeName="width" from="0" to="130" dur="1.2s" begin="0.5s" fill="freeze" calcMode="discrete"
+          values="0;18;36;54;72;90;108;130" keyTimes="0;0.14;0.28;0.42;0.56;0.7;0.84;1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeName">
+      <rect x="40" y="118" width="0" height="52">
+        <animate attributeName="width" from="0" to="640" dur="1.4s" begin="2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- terminal window -->
+  <rect x="8" y="8" width="884" height="234" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <rect x="8" y="8" width="884" height="40" rx="14" fill="#161b22"/>
+  <rect x="8" y="34" width="884" height="14" fill="#161b22"/>
+  <circle cx="34" cy="28" r="6.5" fill="#ff5f56"/>
+  <circle cx="56" cy="28" r="6.5" fill="#ffbd2e"/>
+  <circle cx="78" cy="28" r="6.5" fill="#27c93f"/>
+  <text x="450" y="33" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8b949e">yousif@team-axioms: ~</text>
+
+  <!-- prompt line -->
+  <text x="40" y="102" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#34d399">$</text>
+  <g clip-path="url(#typeCmd)">
+    <text x="58" y="102" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#c9d1d9">whoami</text>
+  </g>
+
+  <!-- name output -->
+  <g clip-path="url(#typeName)">
+    <text x="40" y="158" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="url(#nameGrad)">Muhammad Yousif Khan</text>
+  </g>
+
+  <!-- role line -->
+  <text x="40" y="192" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#8b949e" opacity="0">
+    Full-Stack Developer · Co-Founder &amp; Team Lead @ Team Axioms
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="3.4s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="218" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#c9d1d9" opacity="0">
+    <tspan fill="#34d399">$</tspan> building software businesses depend on
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="4s" fill="freeze"/>
+  </text>
+  <!-- blinking cursor -->
+  <rect x="455" y="203" width="10" height="19" fill="#38bdf8" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="4.1s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" begin="4.3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- accent bar -->
+  <rect x="40" y="232" width="820" height="2.5" rx="1.25" fill="url(#barGrad)"/>
+</svg>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38B2AC&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+(MERN%2C+TypeScript);Co-Founder+%40+Team+Axioms;I+build+software+businesses+depend+on!" alt="Typing SVG" />
-  </a>
-</div>
 
-<br/>
+<img src="./assets/header.svg" alt="Muhammad Yousif Khan — Full-Stack Developer, Co-Founder @ Team Axioms" width="100%"/>
 
-<div align="center">
-  <a href="https://yousif-s-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/muhammad-yousif-khan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/MuhammadYousifKhan"><img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.fiverr.com/sellers/m_yousif_khan01"><img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr" /></a>
-  <a href="mailto:muhammadyousifkhan@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<br/><br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=38bdf8)](https://yousif-s-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/muhammad-yousif-khan-khushik)
+[![Fiverr](https://img.shields.io/badge/Fiverr-0d1117?style=for-the-badge&logo=fiverr&logoColor=1DBF73)](https://www.fiverr.com/sellers/m_yousif_khan01)
+[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:muhammadyousifkhankhushik@gmail.com)
+
 </div>
 
 ---
 
 ## 🚀 About Me
 
-<img align="right" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width="300" alt="Developer Animation" />
-
-- 🏢 **Co-Founder & Team Lead @ Team Axioms** — A student-led dev team shipping full-stack web & AI automation for business clients.
-- 🧾 Designed and deployed **4 production systems** — Two multi-branch ERPs, a real-estate platform, and a retail POS. These systems currently handle **85+ live transactions a day** with automated WhatsApp billing and double-entry accounting.
-- ⚡ Automate with **n8n + LLM agents (LangChain)** — Cut manual processing time by **40%** and removed **15+ hours/week** of recurring work.
+- 🏢 **Co-Founder & Team Lead @ Team Axioms** — a student-led dev team shipping full-stack web & AI automation for business clients.
+- 🧾 Designed and deployed **4 production systems** — two multi-branch ERPs, a real-estate platform, and a retail POS, currently handling **85+ live transactions a day** with automated WhatsApp billing and double-entry accounting.
+- ⚡ Automate with **n8n + LLM agents (LangChain)** — cut manual processing time by **40%** and removed **15+ hours/week** of recurring work.
 - 🎓 BS Computer Science @ **Sukkur IBA University** (CGPA 3.37/4.00, Class of 2027).
 - 🥇 **1st Place**, Speed Programming Competition (Sukkur IBA) · 🇮🇹 Global Semester Exchange — Sapienza University of Rome.
 - 💬 Ask me about: **ERP/POS architecture, MERN, TypeScript, and workflow automation**.
-
-<br/>
 
 ---
 
 ## 🧩 Featured Work
 
 | 🚀 Project | 🛠️ Tech Stack | 📊 Status |
-| :--- | :--- | :--- |
+|---|---|---|
 | **Autos & Battery Store ERP** <br/> *MERN ERP with WhatsApp Cloud API billing & double-entry accounting* | React · Node · MongoDB | 🟢 Live & In Use |
 | **Fertilizer Shop ERP** <br/> *Multi-branch, role-based retail ERP with 9 report types* | React 19 · TypeScript · Zustand | 🟢 Live & In Use |
 | **Real Estate Management** <br/> *Multi-city property platform with real-time WhatsApp alerts* | React · TypeScript · OpenWA | 🟢 Live & In Use |
 | **CareerMint — AI Resume Builder** <br/> *MERN SaaS with LLM parsing & ATS templates* | React · Node · MongoDB | 🚀 SaaS Platform |
 | **Super Mart POS** <br/> *Retail POS with real-time inventory sync & credit ledgers* | React · Node · Supabase | 🟢 Live & In Use |
 
-*➡️ Discover more projects on my [Portfolio](https://yousif-s-portfolio.vercel.app).*
+*➡️ More projects on my [Portfolio](https://yousif-s-portfolio.vercel.app).*
 
 ---
 
 ## 💻 Tech Stack
 
-<details>
-  <summary><b>👨‍💻 Languages</b></summary>
-  <br/>
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-</details>
+<div align="center">
 
-<details>
-  <summary><b>🌐 Frontend</b></summary>
-  <br/>
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Zustand-433e38?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue" />
-  <img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" />
-</details>
+**Languages**
 
-<details>
-  <summary><b>⚙️ Backend & Cloud</b></summary>
-  <br/>
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase" />
-  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
-</details>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=js,ts,py,java,cpp" alt="JavaScript, TypeScript, Python, Java, C++"/></a>
 
-<details>
-  <summary><b>🤖 Data, AI & Automation</b></summary>
-  <br/>
-  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</details>
+**Frontend**
 
-<details>
-  <summary><b>🛠️ Tools</b></summary>
-  <br/>
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-</details>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,threejs,vite,html,css" alt="React, Next.js, Redux, Tailwind, Three.js, Vite, HTML, CSS"/></a>
 
-<br/>
+**Backend, Databases & Cloud**
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,supabase,sqlite,firebase,vercel" alt="Node.js, Express, MongoDB, PostgreSQL, Supabase, SQLite, Firebase, Vercel"/></a>
+
+**Data, AI & Tools**
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=sklearn,git,github,githubactions,postman" alt="scikit-learn, Git, GitHub, GitHub Actions, Postman"/></a>
+
+<img src="https://img.shields.io/badge/Zustand-433e38?style=flat-square&logo=react&logoColor=white" alt="Zustand"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/> <img src="https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp Cloud API"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
+
+</div>
 
 ---
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MuhammadYousifKhan&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
-</div>
 
-<br/>
+<img src="https://github-profile-trophy.vercel.app/?username=MuhammadYousifKhan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub Trophies"/>
 
-<div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=MuhammadYousifKhan&theme=radical&hide_border=false&include_all_commits=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com/?user=MuhammadYousifKhan&theme=radical&hide_border=false" width="48%" alt="Streak Stats" />
-</div>
+<br/><br/>
 
-<br/>
+<img height="170" src="https://github-readme-stats.shion.dev/api?username=MuhammadYousifKhan&show_icons=true&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&ring_color=38bdf8&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+<img height="170" src="https://streak-stats.demolab.com/?user=MuhammadYousifKhan&hide_border=true&background=0d1117&ring=38bdf8&fire=818cf8&currStreakLabel=38bdf8&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="Streak Stats"/>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadYousifKhan&theme=react-dark&hide_border=true&area=true" width="100%" alt="Activity Graph" />
-</div>
+<br/><br/>
 
-<br/>
+<img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MuhammadYousifKhan&layout=compact&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="Top Languages"/>
 
-<div align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=MuhammadYousifKhan&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact" width="48%" alt="Top Languages" />
-</div>
+<br/><br/>
 
-<br/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadYousifKhan&bg_color=0d1117&color=c9d1d9&line=38bdf8&point=818cf8&area=true&area_color=1f2a44&hide_border=true" alt="Activity Graph" width="95%"/>
 
-<div align="center">
-  <!-- Note: Enable the snake animation by setting up the standard grid-snake GitHub action in your repositories. -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/github-contribution-grid-snake.svg">
-  </picture>
 </div>
 
 ---
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=MuhammadYousifKhan&label=Profile%20Views&color=blue&style=flat" alt="Profile Views" />
+
+<img src="https://komarev.com/ghpvc/?username=MuhammadYousifKhan&label=Profile%20Views&color=38bdf8&style=flat-square" alt="Profile Views"/>
+
 </div>
