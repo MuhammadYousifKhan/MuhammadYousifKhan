@@ -1,0 +1,29 @@
+name: Update Trophies
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate trophy SVG
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: MuhammadYousifKhan
+          output_path: assets/trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated trophies
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/trophies.svg
+          git commit -m "chore: update trophies" || echo "No changes to commit"
+          git push
