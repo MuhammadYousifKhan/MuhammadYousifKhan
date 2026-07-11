@@ -22,8 +22,13 @@ jobs:
 
       - name: Commit updated trophies
         run: |
+          echo "--- SVG files generated in workspace ---"
+          find . -name "*.svg" -not -path "./.git/*"
+          mkdir -p assets
+          if [ -f "trophy.svg" ]; then mv trophy.svg assets/trophies.svg; fi
+          if [ -f "trophies.svg" ]; then mv trophies.svg assets/trophies.svg; fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/trophies.svg
+          git add -A assets
           git commit -m "chore: update trophies" || echo "No changes to commit"
           git push
