@@ -133,7 +133,11 @@
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadYousifKhan&bg_color=0d1117&color=c9d1d9&line=38bdf8&point=818cf8&area=true&area_color=1f2a44&hide_border=true" alt="Activity Graph" width="95%"/>
+<picture>
+	<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/pacman-contribution-graph-dark.svg">
+	<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/pacman-contribution-graph.svg">
+	<img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/pacman-contribution-graph.svg" width="95%">
+</picture>
 
 <br/><br/>
 
