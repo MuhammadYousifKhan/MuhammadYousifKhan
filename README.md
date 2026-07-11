@@ -24,6 +24,35 @@
 
 ---
 
+## 🔭 Currently Building
+
+<table>
+	<tr>
+		<td width="50%" valign="top">
+			<h3 align="center">🌾 Kisaan.ai</h3>
+			<p align="center"><em>Voice-first AI farming assistant for Sindh's smallholder farmers</em></p>
+			<p>Final Year Project — crop disease detection with CNNs, an Urdu/Sindhi voice assistant, and satellite vegetation health monitoring (Sentinel-2 / NDVI via Google Earth Engine). Weather and flood-risk alerts plus crop and profit recommendations, designed offline-first for low-literacy users.</p>
+			<p align="center">
+				<img src="https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="PyTorch"/>
+				<img src="https://img.shields.io/badge/Whisper-0d1117?style=for-the-badge&logo=openai&logoColor=38bdf8" alt="Whisper"/>
+				<img src="https://img.shields.io/badge/React_Native-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
+			</p>
+		</td>
+		<td width="50%" valign="top">
+			<h3 align="center">🔬 Axiom Research Console</h3>
+			<p align="center"><em>Full-stack AI research console with an autonomous multi-stage pipeline</em></p>
+			<p>Autonomous research runs streamed live over server-sent events: query decomposition, retrieval over ChromaDB vector storage, and staged synthesis. FastAPI backend with a React 19 + Redux Toolkit + TypeScript frontend.</p>
+			<p align="center">
+				<img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI"/>
+				<img src="https://img.shields.io/badge/React_19-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 19"/>
+				<img src="https://img.shields.io/badge/ChromaDB-0d1117?style=for-the-badge&logo=databricks&logoColor=818cf8" alt="ChromaDB"/>
+			</p>
+		</td>
+	</tr>
+</table>
+
+---
+
 ## 🧩 Featured Work
 
 | 🚀 Project | 🛠️ Tech Stack | 📊 Status |
@@ -36,9 +65,25 @@
 
 *➡️ More projects on my [Portfolio](https://yousif-s-portfolio.vercel.app).*
 
+<div align="center">
+
+<a href="https://github.com/MuhammadYousifKhan/CareerMint-resume-builder">
+	<img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=MuhammadYousifKhan&repo=CareerMint-resume-builder&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=818cf8&hide_border=true" alt="CareerMint-resume-builder"/>
+</a>
+<a href="https://github.com/MuhammadYousifKhan/Battery-Shop-Management-System">
+	<img width="49%" src="https://github-readme-stats.shion.dev/api/pin/?username=MuhammadYousifKhan&repo=Battery-Shop-Management-System&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=818cf8&hide_border=true" alt="Battery-Shop-Management-System"/>
+</a>
+
+</div>
+
 ---
 
 ## 💻 Tech Stack
+
+<details open>
+<summary><b>🧰 View full stack — languages, frontend, backend, AI & tools</b></summary>
+
+<br/>
 
 <div align="center">
 
@@ -62,9 +107,16 @@
 
 </div>
 
+</details>
+
 ---
 
 ## 📊 GitHub Analytics
+
+<details open>
+<summary><b>📈 View stats, streak, languages & activity graph</b></summary>
+
+<br/>
 
 <div align="center">
 
@@ -83,11 +135,57 @@
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadYousifKhan&bg_color=0d1117&color=c9d1d9&line=38bdf8&point=818cf8&area=true&area_color=1f2a44&hide_border=true" alt="Activity Graph" width="95%"/>
 
+<br/><br/>
+
+<!-- TODO: Uncomment after WakaTime setup — replace WAKATIME_USERNAME -->
+<!-- <img height="180" src="https://github-readme-stats.shion.dev/api/wakatime?username=WAKATIME_USERNAME&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=818cf8&hide_border=true&layout=compact&langs_count=8" alt="WakaTime Stats"/> -->
+
+</div>
+
+</details>
+
+---
+
+## 🤝 Work With Me
+
+<div align="center">
+
+<table>
+	<tr>
+		<td align="center" width="33%">
+			<h3>🏗️ ERP & POS Systems</h3>
+			<p>Multi-branch retail ERPs, inventory & credit ledgers, double-entry accounting, role-based reporting.</p>
+		</td>
+		<td align="center" width="33%">
+			<h3>💬 WhatsApp Automation</h3>
+			<p>Automated billing, real-time alerts, and customer flows on the WhatsApp Cloud API & OpenWA.</p>
+		</td>
+		<td align="center" width="33%">
+			<h3>🤖 AI Integration</h3>
+			<p>LLM agents, n8n workflow automation, and RAG pipelines that remove hours of manual work weekly.</p>
+		</td>
+	</tr>
+</table>
+
+With **Team Axioms** I ship production systems for real businesses — 4 systems currently live, handling 85+ transactions a day. If you have a project in mind:
+
+<a href="https://www.fiverr.com/sellers/m_yousif_khan01">
+	<img src="https://img.shields.io/badge/Hire_me_on_Fiverr-0d1117?style=for-the-badge&logo=fiverr&logoColor=1DBF73" alt="Hire me on Fiverr"/>
+</a>
+<a href="mailto:muhammadyousifkhankhushik@gmail.com">
+	<img src="https://img.shields.io/badge/Email_me-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email me"/>
+</a>
+<a href="https://linkedin.com/in/muhammad-yousif-khan-khushik">
+	<img src="https://img.shields.io/badge/Connect_on_LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="Connect on LinkedIn"/>
+</a>
+
 </div>
 
 ---
 
 <div align="center">
+
+<img src="./assets/footer.svg" alt="Thanks for stopping by — let's build something" width="100%"/>
 
 <img src="https://komarev.com/ghpvc/?username=MuhammadYousifKhan&label=Profile%20Views&color=38bdf8&style=flat-square" alt="Profile Views"/>
 
