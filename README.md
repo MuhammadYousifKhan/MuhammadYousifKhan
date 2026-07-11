@@ -120,28 +120,36 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=MuhammadYousifKhan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=MuhammadYousifKhan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub Trophies" width="95%"/>
 
 <br/><br/>
 
-<img height="170" src="https://github-readme-stats.shion.dev/api?username=MuhammadYousifKhan&show_icons=true&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&ring_color=38bdf8&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-<img height="170" src="https://streak-stats.demolab.com/?user=MuhammadYousifKhan&hide_border=true&background=0d1117&ring=38bdf8&fire=818cf8&currStreakLabel=38bdf8&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="Streak Stats"/>
+<table width="100%">
+	<tr>
+		<td width="50%" align="center">
+			<img src="https://github-readme-stats.shion.dev/api?username=MuhammadYousifKhan&custom_title=Muhammad%20Yousif%20Khan%27s%20GitHub%20Stats&show_icons=true&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&ring_color=38bdf8&include_all_commits=true&count_private=true&card_width=420" alt="GitHub Stats"/>
+		</td>
+		<td width="50%" align="center">
+			<img src="https://streak-stats.demolab.com/?user=MuhammadYousifKhan&hide_border=true&background=0d1117&ring=38bdf8&fire=818cf8&currStreakLabel=38bdf8&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&card_width=420" alt="Streak Stats"/>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" align="center">
+			<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=MuhammadYousifKhan&layout=compact&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&include_all_commits=true&count_private=true&langs_count=8&hide=jupyter%20notebook&card_width=420" alt="Top Languages"/>
+		</td>
+		<td width="50%" align="center">
+			<img src="https://github-readme-stats.shion.dev/api?username=MuhammadYousifKhan&show_icons=true&hide_border=true&bg_color=0d1117&hide_title=true&hide_rank=false&rank_icon=percentile&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&ring_color=818cf8&card_width=420" alt="Rank"/>
+		</td>
+	</tr>
+</table>
 
-<br/><br/>
-
-<img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MuhammadYousifKhan&layout=compact&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="Top Languages"/>
-
-<br/><br/>
+<br/>
 
 <picture>
 	<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/pacman-contribution-graph-dark.svg">
 	<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/pacman-contribution-graph.svg">
 	<img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/MuhammadYousifKhan/MuhammadYousifKhan/output/pacman-contribution-graph.svg" width="95%">
 </picture>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadYousifKhan&bg_color=0d1117&color=c9d1d9&line=38bdf8&point=818cf8&area=true&area_color=1f2a44&hide_border=true" alt="Activity Graph" width="95%"/>
 
 <br/><br/>
 
