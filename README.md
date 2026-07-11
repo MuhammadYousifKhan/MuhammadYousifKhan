@@ -141,6 +141,10 @@
 
 <br/><br/>
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadYousifKhan&bg_color=0d1117&color=c9d1d9&line=38bdf8&point=818cf8&area=true&area_color=1f2a44&hide_border=true" alt="Activity Graph" width="95%"/>
+
+<br/><br/>
+
 <!-- TODO: Uncomment after WakaTime setup — replace WAKATIME_USERNAME -->
 <!-- <img height="180" src="https://github-readme-stats.shion.dev/api/wakatime?username=WAKATIME_USERNAME&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=818cf8&hide_border=true&layout=compact&langs_count=8" alt="WakaTime Stats"/> -->
 
