@@ -17,9 +17,9 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: MuhammadYousifKhan
-          output_path: assets/trophies.svg
+          file: assets/trophies.svg
           theme: tokyonight
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TROPHY_PAT }}
 
       - name: Commit updated trophies
         run: |
